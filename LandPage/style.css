@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playwrite+DK+Loopet:wght@100..400&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -5,10 +7,11 @@
 }
 
 header{
+    font-family: "Playwrite DK Loopet", cursive;
     background-color: black;
     color: white;
     width: 100vw;
-    height: 100px;
+    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,7 +19,12 @@ header{
 
 .logo{
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 40px;
+
+    p{
+        position: relative;
+        bottom: 10px;
+    }
 }
 
 ul{
