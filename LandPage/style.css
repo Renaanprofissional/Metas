@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 
-body {
+body{
     width: 100vw;
     height: 100vh;
 }
@@ -95,6 +95,11 @@ main {
         font-family: "Playwrite DK Loopet", cursive;
     }
    }
+}
+
+aside{
+    width: auto;
+    height: auto;
 }
 
 /*
