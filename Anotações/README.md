@@ -1,5 +1,5 @@
 Olá meu nome é Renan Felipe,
-Nesse projeto irei criar uma pagina de metas para 2025.
+Nesse projeto irei criar uma pagina de metas para 2026.
 Irei aplicar algumas tecnologias estou aprendendo no curso DevClub.
 Ultilizarei HTML e CSS.
 Algumas classes irei colocar ingles, Para q eu possa melhorar meu aprendizado.

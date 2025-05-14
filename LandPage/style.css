@@ -7,22 +7,28 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
 }
 
 body{
+    background-color: black;
+}
+
+.principal{
     width: 100vw;
     height: 100vh;
 }
 
 header {
     font-family: "Playwrite DK Loopet", cursive;
-    background-color: black;
+    background-color: transparent;
     color: white;
     width: 100%;
     height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
 
     .nav{
         a{
@@ -97,11 +103,6 @@ main {
    }
 }
 
-aside{
-    width: auto;
-    height: auto;
-}
-
 /*
 main{
     margin: 30px;
@@ -114,3 +115,6 @@ main{
 }
 */
 
+section{
+    width: 100px;
+}
