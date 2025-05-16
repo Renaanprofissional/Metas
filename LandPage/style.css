@@ -11,7 +11,7 @@
 }
 
 body{
-    background-color: rgb(0, 0, 0);
+    background: linear-gradient(90deg, #010002, #636363);
 }
 
 
@@ -134,20 +134,25 @@ main{
     background: rgba(255, 255, 255, 0.05);
     border-radius: 16px;
     backdrop-filter: blur(5px);
-    border: 1px solid var(--vidro);
+    border: 1px solid #68b2f8;
     overflow: hidden;
     transition: all 0.5s ease;
     cursor: pointer;
+
+    h3{
+        color: #ffffff;
+    }
 }
 
 .projetos-titulo{
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 50px;
+    color: aliceblue;
 }
 
 .projetos-card:hover{
-    box-shadow: 0 10px 20px rgba(79, 70, 229, 0.2);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     transform: translateY(-10px) scale(1.03);
 }
 
@@ -156,7 +161,7 @@ main{
 }
 
 .paragrafo-projeto{
-    color: rgba(226, 232, 240, 0.8);
+    color: rgba(241, 239, 239, 0.8);
     line-height: 1.25rem;
 }
 
