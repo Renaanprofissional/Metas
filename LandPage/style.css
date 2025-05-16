@@ -69,7 +69,7 @@ ul {
 
 
 .main {
-    background-image: url(./assets/download.jpg);
+    background-color: #010002;
     background-size: 100%;
     width: 100%;
     height: auto;
@@ -120,7 +120,7 @@ main{
 
 .console-images{
     background-color: transparent;
-    height: 200px;
+    height: 300px;
     width: 100%;
     object-fit: cover;
 }
@@ -141,7 +141,7 @@ main{
     background: rgba(255, 255, 255, 0.05);
     border-radius: 16px;
     backdrop-filter: blur(5px);
-    border: 1px solid #68b2f8;
+    border: 1px solid #1bcc1b67;
     overflow: hidden;
     transition: all 0.5s ease;
     cursor: pointer;
@@ -155,7 +155,7 @@ main{
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 50px;
-    color: aliceblue;
+    color: rgb(177, 202, 206);
 }
 
 .console-card:hover{
