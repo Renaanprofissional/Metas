@@ -10,6 +10,10 @@
     color: white;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background: linear-gradient(90deg, #010002, #636363);
 }
@@ -25,6 +29,7 @@ header {
     justify-content: space-between;
     align-items: center;
     position: fixed;
+    z-index: 1;
 
     .nav{
         a{
@@ -74,6 +79,8 @@ ul {
     padding: 90px 0;
     justify-content: center;
     align-items: center;
+    border-bottom-left-radius: 8%;
+    border-bottom-right-radius: 8%;
     
 
     img {
@@ -111,18 +118,18 @@ main{
 }
 */
 
-.projetos-images{
+.console-images{
     background-color: transparent;
     height: 200px;
     width: 100%;
     object-fit: cover;
 }
 
-.projetos{
+.console{
     padding: 6rem 2rem;
 }
 
-.projetos-caixa{
+.console-caixa{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
@@ -130,7 +137,7 @@ main{
     margin: 0 auto;
 }
 
-.projetos-card{
+.console-card{
     background: rgba(255, 255, 255, 0.05);
     border-radius: 16px;
     backdrop-filter: blur(5px);
@@ -144,27 +151,27 @@ main{
     }
 }
 
-.projetos-titulo{
+.console-titulo{
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 50px;
     color: aliceblue;
 }
 
-.projetos-card:hover{
+.console-card:hover{
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     transform: translateY(-10px) scale(1.03);
 }
 
-.caixa-textos-projeto{
+.caixa-textos-console{
     padding: 1.5rem;
 }
 
-.paragrafo-projeto{
+.paragrafo-console{
     color: rgba(241, 239, 239, 0.8);
     line-height: 1.25rem;
 }
 
-.info-projetos{
+.info-console{
     margin-bottom: 5px;
 }
