@@ -14,11 +14,6 @@ body{
     background-color: black;
 }
 
-.principal{
-    width: 100vw;
-    height: 100vh;
-}
-
 header {
     font-family: "Playwrite DK Loopet", cursive;
     background-color: transparent;
@@ -67,7 +62,7 @@ ul {
 
 
 
-main {
+.main {
     background-image: url(./assets/download.jpg);
     background-size: 100%;
     width: 100%;
@@ -115,6 +110,55 @@ main{
 }
 */
 
-section{
-    width: 100px;
+.projetos-images{
+    background-color: transparent;
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.projetos{
+    padding: 6rem 2rem;
+}
+
+.projetos-caixa{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.projetos-card{
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    border: 1px solid var(--vidro);
+    overflow: hidden;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.projetos-titulo{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+
+.projetos-card:hover{
+    box-shadow: 0 10px 20px rgba(79, 70, 229, 0.2);
+    transform: translateY(-10px) scale(1.03);
+}
+
+.caixa-textos-projeto{
+    padding: 1.5rem;
+}
+
+.paragrafo-projeto{
+    color: rgba(226, 232, 240, 0.8);
+    line-height: 1.25rem;
+}
+
+.info-projetos{
+    margin-bottom: 5px;
 }
