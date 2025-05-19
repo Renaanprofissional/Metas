@@ -10,11 +10,11 @@
     color: white;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     background: linear-gradient(90deg, #010002, #636363);
 }
 
@@ -31,14 +31,15 @@ header {
     position: fixed;
     z-index: 1;
 
-    .nav{
-        a{
+    .nav {
+        a {
             color: white;
             text-decoration: none;
             display: inline-block;
             transition: 0.5s;
         }
-        a:hover{
+
+        a:hover {
             color: #68b2f8;
             transform: translateY(-4px);
             transition: 0.5s;
@@ -81,42 +82,44 @@ ul {
     align-items: center;
     border-bottom-left-radius: 8%;
     border-bottom-right-radius: 8%;
-    
+
 
     img {
-    height: 500px;
-    border-radius: 100%;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-
-   .goals{
-    margin: 89px 0;
-    font-size: 15px;
-
-    h1{
-        color: #25e4bc;
-        font-family: "Playwrite DK Loopet", cursive;
-        font-weight: bold;
+        height: 500px;
+        border-radius: 100%;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     }
 
-    p{
-        margin-top: 30px;
-        font-family: "Playwrite DK Loopet", cursive;
+    .goals {
+        margin: 89px 0;
+        font-size: 15px;
+
+        h1 {
+            color: #25e4bc;
+            font-family: "Playwrite DK Loopet", cursive;
+            font-size: 60px;
+            font-weight: bold;
+        }
+
+        p {
+            margin-top: 30px;
+            font-family: "Playwrite DK Loopet", cursive;
+        }
     }
-   }
 }
-.metas-images{
+
+.metas-images {
     background-color: transparent;
     height: 300px;
     width: 100%;
     object-fit: cover;
 }
 
-.meta{
+.meta {
     padding: 6rem 2rem;
 }
 
-.metas-caixa{
+.metas-caixa {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
@@ -124,7 +127,7 @@ ul {
     margin: 0 auto;
 }
 
-.metas-card{
+.metas-card {
     background: rgba(255, 255, 255, 0.05);
     border-radius: 16px;
     backdrop-filter: blur(5px);
@@ -133,32 +136,32 @@ ul {
     transition: all 0.5s ease;
     cursor: pointer;
 
-    h3{
+    h3 {
         color: #ffffff;
     }
 }
 
-.metas-titulo{
+.metas-titulo {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 50px;
-    color: rgb(177, 202, 206);
+    color: #68b2f8;
 }
 
-.metas-card:hover{
+.metas-card:hover {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     transform: translateY(-10px) scale(1.03);
 }
 
-.caixa-textos-metas{
+.caixa-textos-metas {
     padding: 1.5rem;
 }
 
-.paragrafo-metas{
+.paragrafo-metas {
     color: rgba(241, 239, 239, 0.8);
     line-height: 1.25rem;
 }
 
-.info-metas{
+.info-metas {
     margin-bottom: 5px;
 }
