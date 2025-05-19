@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playwrite+DK+Loopet:wght@100..400&family=Underdog&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playwrite+DK+Loopet:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Underdog&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +16,6 @@ html {
 body {
     background: linear-gradient(90deg, #010002, #636363);
 }
-
 
 header {
     font-family: "Playwrite DK Loopet", cursive;
@@ -86,12 +84,14 @@ ul {
 
     img {
         height: 500px;
+        margin-right: 15px;
         border-radius: 100%;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     }
 
     .goals {
-        margin: 89px 0;
+        margin: 85px 0;
+        padding: 0 50px;
         font-size: 15px;
 
         h1 {
