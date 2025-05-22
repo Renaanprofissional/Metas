@@ -31,11 +31,17 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    img {
-        width: 3%;
+    .link{
+     img {
+        width: 7.5%;
         border-radius: 12px;
+        margin-top: 5px;
         margin-left: 20px;
+        image-rendering: optimizeQuality;
+        cursor: pointer;
     }
+    }
+    
 }
 
 nav {
