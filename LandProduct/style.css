@@ -10,7 +10,9 @@ html {
 
 :root {
     --primaria: #215a6d;
-    --secundaria: #3ca2a2;
+    --secundaria: #3ca2a2; 
+    --pri: #90d9f1;
+    --sec:  #60c4c4;
     --escuro: #000;
     --claro: #ffffff;
     --vidro: rgba(255, 255, 255, 0.1);
@@ -65,7 +67,7 @@ nav {
         }
 
         a:hover {
-            color: var(--secundaria);
+            color: var(--pri);
         }
 
         a::after {
@@ -76,7 +78,7 @@ nav {
             position: absolute;
             bottom: 0;
             left: 0;
-            background: linear-gradient(90deg, #215a6d, #3ca2a2);
+            background: linear-gradient(90deg, #90d9f1, #60c4c4);
             transition: width 0.5s ease;
         }
 
