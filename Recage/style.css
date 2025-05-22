@@ -101,37 +101,6 @@ header {
 }
 
 
-
-/*teste*/
-
-.teste-categoria{
-  border: none;
-  width: 10%;
-  position: absolute;
-  cursor: pointer;
-  
-
-  .categoria-item{
-    display: flex;
-    flex-direction: column;
-    background-color: var(--claro);
-    margin-top: 10px;
-    border-radius: 9px;
-    border: 1px solid var(--secundaria);
-
-    .link-item{
-      color: var(--escuro);
-      cursor: pointer;
-      text-decoration: none;
-      padding: 10px;
-      width: 0 auto;
-    }
-    .link-item:hover{
-      background-color: var(--secundaria);
-    }
-  }
-}
-
 summary{
     list-style: none;
 }
