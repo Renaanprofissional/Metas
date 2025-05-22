@@ -8,7 +8,6 @@
     --main: rgba(75, 163, 160, 0.8);
 }
 .metas-images {
-        background-color: transparent;
         height: 300px;
         width: 100%;
         object-fit: cover;
@@ -27,16 +26,17 @@
     }
 
     .metas-card {
-        background: rgba(255, 255, 255, 0.05);
+        background-color: var(--escuro);
+        /*background: rgba(255, 255, 255, 0.05);   /* transparente */
         border-radius: 16px;
         backdrop-filter: blur(5px);
-        border: 2px solid var(--primaria);
+        border: 2px solid var(--secundaria);
         overflow: hidden;
         transition: all 0.5s ease;
         cursor: pointer;
 
         h3 {
-            color: #000000;
+            color: var(--claro);
         }
     }
 
@@ -57,7 +57,7 @@
     }
 
     .paragrafo-metas {
-        color: var(--escuro);
+        color: var(--claro);
         line-height: 1.25rem;
     }
 
