@@ -20,6 +20,7 @@ html {
 
 header {
     position: fixed;
+    z-index: 1000;
     background-color: var(--escuro);
     color: var(--claro);
     width: 100%;
@@ -39,7 +40,7 @@ nav {
     display: flex;
     flex-direction: row;
     margin-right: 20px;
-        /* Espaçamento entre os itens do menu */
+    /* Espaçamento entre os itens do menu */
 
     li {
         position: relative;
@@ -55,13 +56,13 @@ nav {
         display: flex;
         gap: 50px;
         list-style: none;
-        
+
         a {
             text-decoration: none;
             color: var(--claro);
             transition: 0.6s;
             position: relative;
-        }   
+        }
 
         a:hover {
             color: var(--secundaria);
@@ -83,14 +84,16 @@ nav {
             width: 100%;
         }
 
-        .link-categoria{
+        .link-categoria {
             text-decoration: none;
             color: var(--claro);
         }
-        .link-categoria:hover{
+
+        .link-categoria:hover {
             color: var(--secundaria);
         }
-         .link-categoria::after {
+
+        .link-categoria::after {
             content: "";
             margin-bottom: 5px;
             height: 2px;
@@ -109,113 +112,53 @@ nav {
 
     /* teste */
 
-/* Estilos específicos para o link com categorias */
-.com-categorias .categorias {
-    display: none;
-    /* Esconde as categorias inicialmente */
-    position: absolute;
-    /* Posiciona o dropdown em relação ao item da lista */
-    top: 30px;
-    /* Posiciona o dropdown abaixo do link */
-    left: 0;
-    border-radius: 8px;
-    background-color: #ffffff;
-    /* Cor de fundo do dropdown */
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    /* Sombra do dropdown */
-    z-index: 1;
-    /* Garante que o dropdown fique acima de outros elementos */
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    min-width: 150px;
-    /* Largura mínima do dropdown */
+    /* Estilos específicos para o link com categorias */
+    .com-categorias .categorias {
+        display: none;
+        /* Esconde as categorias inicialmente */
+        position: absolute;
+        /* Posiciona o dropdown em relação ao item da lista */
+        top: 30px;
+        /* Posiciona o dropdown abaixo do link */
+        left: 0;
+        border-radius: 8px;
+        background-color: #ffffff;
+        /* Cor de fundo do dropdown */
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        /* Sombra do dropdown */
+        z-index: 1;
+        /* Garante que o dropdown fique acima de outros elementos */
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        min-width: 150px;
+        /* Largura mínima do dropdown */
+    }
+
+    /* Estilo para indicar que as categorias estão ativas */
+    .com-categorias.ativo .link-principal {
+        /* Adicione aqui estilos para indicar que as categorias estão abertas, ex: */
+        font-weight: bold;
+        /* Outros estilos visuais */
+    }
+
+    .com-categorias .categorias li a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .com-categorias .categorias li a:hover {
+        background-color: #ddd;
+        /* Cor de fundo ao passar o mouse nos itens do dropdown */
+    }
 }
 
-/* Estilo para indicar que as categorias estão ativas */
-.com-categorias.ativo .link-principal {
-    /* Adicione aqui estilos para indicar que as categorias estão abertas, ex: */
-    font-weight: bold;
-    /* Outros estilos visuais */
-}
-
-.com-categorias .categorias li a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.com-categorias .categorias li a:hover {
-    background-color: #ddd;
-    /* Cor de fundo ao passar o mouse nos itens do dropdown */
-}
-}
-
-main{
-    img{
+main {
+    img {
         width: 100%;
         height: 600px;
     }
 }
-
-.metas-images {
-    background-color: transparent;
-    height: 300px;
-    width: 100%;
-    object-fit: cover;
-}
-
-.meta {
-    padding: 2rem 2rem;
-}
-
-.metas-caixa {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.metas-card {
-    background: rgba(255, 255, 255, 0.05);
-    border-radius: 16px;
-    backdrop-filter: blur(5px);
-    border: 1px solid var(--escuro);
-    overflow: hidden;
-    transition: all 0.5s ease;
-    cursor: pointer;
-
-    h3 {
-        color: #000000;
-    }
-}
-
-.metas-titulo {
-    text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 50px;
-    color: var(--escuro);
-}
-
-.metas-card:hover {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    transform: translateY(-10px) scale(1.03);
-}
-
-.caixa-textos-metas {
-    padding: 1.5rem;
-}
-
-.paragrafo-metas {
-    color: var(--escuro);
-    line-height: 1.25rem;
-}
-
-.info-metas {
-    margin-bottom: 5px;
-}
-
-
-
+    
